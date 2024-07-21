@@ -1,0 +1,83 @@
+.header{
+    display:flex;
+    gap:1rem;
+background-color: black;
+color: white;
+padding:1.4rem ;
+font-size: 20px;
+list-style-type: none; /* Remove bullets */
+
+}
+.lemnox{
+    margin-right: auto;
+    font-size: 30px;
+  
+}
+.container{
+   display: flex;
+   flex-direction: column;
+    background-color:#EEEEEE;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+   
+    
+    
+ 
+    
+}
+.container p{
+    font-size: 25px;
+    
+    text-align: center;
+}
+.container>.heading{
+    font-size: 60px;
+
+  font-weight: 600;
+  font-style: normal;
+    
+}
+
+footer{
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin: 0%;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+.containers.products{
+    display:grid;
+ text-align: center;
+    font-weight: 800;
+    gap: 15rem;
+    margin: 5rem;
+
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 50px 20px;
+}
+.col-sm-2 {
+    align-items: center;
+    align-content: center;
+}
+.contact-us{
+    text-align: center;
+    padding: 5rem;
+}
+.ul{
+    list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margins */
+}
